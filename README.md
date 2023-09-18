@@ -252,7 +252,7 @@ Transfer/sec:     26.67MB
 # 84 行修改为如下
 OUTPUT := libtinyxml.a 
 
-# 194, 105 行修改如下
+# 104, 105 行修改如下
 ${OUTPUT}: ${OBJS}
 	${AR} $@ ${LDFLAGS} ${OBJS} ${LIBS} ${EXTRA_LIBS}
 ```
